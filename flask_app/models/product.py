@@ -36,7 +36,7 @@ class Product:
 
     @classmethod
     def save(cls, data):
-        query = 'INSERT INTO product (item, info, price, user_id) VALUES (%(item)s, %(info)s, %(price)s, %(user_id)s);'
+        query = 'INSERT INTO product (item, info, price, user_id) VALUES (%(item)s, %(info)s, %(price)s, %(user_id)s):'
         return connectToMySQL(cls.db).query_db(query, data)
 
     @classmethod

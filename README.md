@@ -1,15 +1,24 @@
-# flaskStoreBroken
+# Flask Store Broken Version
+
+## Clone the code and run the app
+- Forward Engineer the ERD
+- Use the app 1st then look at the code to find the errors
+- There are 14 Errors (injected errors)
 
 
-viewProduct.html order.who.firstName
-@app.route('/dashboard/) -  no session
-dashboard.html - shows product id not who added the product
-dashboard.html - view/edit/delete is based on if there is a user_id for the product not who it was/signed in
-editproduct.html - no post method
-@app.route('/delete) - data is wrong
-@app.route('/order) - no post method
-@login - checkpass word not generate
-@logout - no session.clear()
-product table - AI not checked
-user table - updatedAT vs code updatedAt
-ordered table - spelled orderd (erd wrong)
+# Errors by Type
+
+## ERD Errors:
+
+
+## SQL Errors:
+
+
+## Route Errors:
+
+
+## HTML Errors:
+
+
+## Rendering/Visual Errors:
+
